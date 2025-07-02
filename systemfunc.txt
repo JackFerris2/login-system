@@ -1,0 +1,12 @@
+System Functionality and Session Timeout
+
+This PHP login system allows a user to log in with a valid username and password stored
+in a MySQL database. If the login is successful, they are taken to a secure admin page.
+If login fails, they are redirected to an error page. A logout option is provided from
+the admin page.
+
+The system uses PHP sessions to manage login state. When the user logs in, a session is
+created and a timestamp is stored. If the user stays on the admin page without activity
+for more than 60 seconds, the session expires automatically. When this happens, the user
+is redirected back to the login page, and the admin page is no longer accessible until they
+log in again.

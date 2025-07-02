@@ -1,0 +1,13 @@
+Known Issues and Assumptions
+
+1. Known Issues:
+- None currently. All features are working as expected.
+- The system has not been tested with multiple users at the same time,
+but it works for single-user access.
+
+2. Assumptions:
+- The username and password are hard-coded into the database
+and are not meant to be edited through the interface.
+- Only one user is added for this assignment (admin).
+- It is assumed that the user knows the correct credentials to log in.
+- PHP sessions are assumed to expire after 1 minute of inactivity.
