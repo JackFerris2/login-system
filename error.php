@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Failed</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Login Error</title>
 </head>
 <body>
     <h2>Login Failed</h2>
-    <p>Incorrect username or password.</p>
-    <a href="login.php">Try Again</a>
+    <p>Invalid username or password.</p>
+    <a href="index.php">Try Again</a>
 </body>
 </html>
